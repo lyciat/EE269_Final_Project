@@ -6,11 +6,11 @@ Modification 1: Transforms
 2. Fourier Transform
 3. Wavelet Transform
 
-Modification 2:
+Modification 2: Feature Selection
 1. Feature Selection (PCA)
 2. No Feature Selection
 
-Modification 3:
+Modification 3: Classification Method
 1. SVM
 2. Multilevel Perceptron
 
