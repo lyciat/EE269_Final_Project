@@ -15,11 +15,11 @@ Modification 3: Classification Method
 2. Multilayer Perceptron
 
 **Total Experiments using SVM:**
-1. No Transforms, No Feature Selection, SVM
+1. No Transforms, No Feature Selection, SVM (done)
 2. No Transforms, Feature Selection, SVM
-3. Fourier Transform, No Feature Selection, SVM
+3. Fourier Transform, No Feature Selection, SVM (done)
 4. Fourier Transform, Feature Selection, SVM
-5. Wavelet Transform, No Feature Selection, SVM
+5. Wavelet Transform, No Feature Selection, SVM (done)
 6. Wavelet Transform, Feature Selection, SVM
 
 **Total Experiments using Multilevel Perceptron:**
