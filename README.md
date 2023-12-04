@@ -12,7 +12,7 @@ Modification 2: Feature Selection
 
 Modification 3: Classification Method
 1. SVM
-2. Multilevel Perceptron
+2. Multilayer Perceptron
 
 **Total Experiments using SVM:**
 1. No Transforms, No Feature Selection, SVM
@@ -23,9 +23,9 @@ Modification 3: Classification Method
 6. Wavelet Transform, Feature Selection, SVM
 
 **Total Experiments using Multilevel Perceptron:**
-1. No Transforms, No Feature Selection, Multilevel Perceptron
-2. No Transforms, Feature Selection, Multilevel Perceptron
-3. Fourier Transform, No Feature Selection, Multilevel Perceptron
-4. Fourier Transform, Feature Selection, Multilevel Perceptron
-5. Wavelet Transform, No Feature Selection, Multilevel Perceptron
-6. Wavelet Transform, Feature Selection, Multilevel Perceptron
+1. No Transforms, No Feature Selection, Multilayer Perceptron
+2. No Transforms, Feature Selection, Multilayer Perceptron
+3. Fourier Transform, No Feature Selection, Multilayer Perceptron
+4. Fourier Transform, Feature Selection, Multilayer Perceptron
+5. Wavelet Transform, No Feature Selection, Multilayer Perceptron
+6. Wavelet Transform, Feature Selection, Multilayer Perceptron
