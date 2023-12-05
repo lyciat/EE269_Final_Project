@@ -11,10 +11,35 @@ Modification 2: Feature Selection
 2. No Feature Selection
 
 Modification 3: Classification Method
-1. SVM
-2. Multilayer Perceptron
+1. Linear SVM 
+2. Polynomial SVM (degree = 3)
+3. Multilayer Perceptron
+4. k-Nearest Neighbors
 
-SVM:
+Polynomial SVM:
+
+TIME:
+[0.96695652 0.8726087  0.94782609 0.86434783]
+
+FFT:
+[0.9573913  0.86782609 0.94608696 0.86782609]
+
+CWT:
+[0.97347826 0.9726087  0.97130435 0.97086957]
+
+Accuracy of Polynomial SVM with Time Data:  0.8726086956521739
+Confusion Matrix of Polynomial SVM with Time Data:  [[1832    3]
+ [ 290  175]]
+
+Accuracy of Polynomial SVM with FFT Data:  0.8678260869565217
+Confusion Matrix of Polynomial SVM with FFT Data:  [[1834    1]
+ [ 303  162]]
+
+Accuracy of Polynomial SVM with CWT Data:  0.9726086956521739
+Confusion Matrix of Polynomial SVM with CWT Data:  [[1826    9]
+ [  54  411]]
+
+Linear SVM:
 
 Accuracy of Linear SVM on Time Series Data: 0.84
 
@@ -56,6 +81,19 @@ Confusion Matrix:
  [[1802   33]
  [  31  434]]
 
+
+Accuracy of k-Nearest Neighbor Classifier:
+Time:
+[0.94869565 0.92130435 0.9326087  0.91869565 0.92478261 0.9173913
+ 0.92043478 0.91608696 0.91913043 0.91478261]
+
+FFT:
+[0.93782609 0.92173913 0.93217391 0.91869565 0.9273913  0.92173913
+ 0.92565217 0.92086957 0.9226087  0.91826087]
+
+ CWT:
+[0.97173913 0.96086957 0.96826087 0.96434783 0.96782609 0.9626087
+ 0.96434783 0.96130435 0.96478261 0.9626087 ]
 
 **Total Experiments using Linear SVM:**
 1. No Transforms, No Feature Selection, SVM (done)
