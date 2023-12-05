@@ -6,15 +6,12 @@ Modification 1: Transforms
 2. Fourier Transform
 3. Wavelet Transform
 
-Modification 2: Feature Selection
-1. Feature Selection (PCA)
-2. No Feature Selection
 
 Modification 3: Classification Method
 1. Linear SVM 
-2. Polynomial SVM (degree = 3)
-3. Multilayer Perceptron
-4. k-Nearest Neighbors
+2. Polynomial SVM (degrees = 2, 3, 4, 5)
+4. Multilayer Perceptron
+5. k-Nearest Neighbors (k = 1, 2, ..., 10)
 
 Polynomial SVM:
 
