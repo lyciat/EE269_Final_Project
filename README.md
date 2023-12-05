@@ -57,18 +57,18 @@ Confusion Matrix:
  [  31  434]]
 
 
-**Total Experiments using SVM:**
+**Total Experiments using Linear SVM:**
 1. No Transforms, No Feature Selection, SVM (done)
-2. No Transforms, Feature Selection, SVM
-3. Fourier Transform, No Feature Selection, SVM (done)
-4. Fourier Transform, Feature Selection, SVM
-5. Wavelet Transform, No Feature Selection, SVM (done)
-6. Wavelet Transform, Feature Selection, SVM
+2. Fourier Transform, No Feature Selection, SVM (done)
+3. Wavelet Transform, No Feature Selection, SVM (done)
+
 
 **Total Experiments using Multilevel Perceptron:**
 1. No Transforms, No Feature Selection, Multilayer Perceptron (done)
-2. No Transforms, Feature Selection, Multilayer Perceptron
-3. Fourier Transform, No Feature Selection, Multilayer Perceptron (done)
-4. Fourier Transform, Feature Selection, Multilayer Perceptron
-5. Wavelet Transform, No Feature Selection, Multilayer Perceptron (done)
-6. Wavelet Transform, Feature Selection, Multilayer Perceptron
+2. Fourier Transform, No Feature Selection, Multilayer Perceptron (done)
+3. Wavelet Transform, No Feature Selection, Multilayer Perceptron (done)
+
+**Total Experiments using k-Nearest Neighbors:**
+1. No Transforms, No Feature Selection, k-Nearest Neighbors (done)
+2. Fourier Transform, No Feature Selection, k-Nearest Neighbors (done)
+3. Wavelet Transform, No Feature Selection, k-Nearest Neighbors (done)
