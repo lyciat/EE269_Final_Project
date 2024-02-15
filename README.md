@@ -10,7 +10,7 @@ Modification 1: Transforms
 Modification 3: Classification Method
 1. Linear SVM 
 2. Polynomial SVM (degrees = 2, 3, 4, 5)
-4. Multilayer Perceptron
+4. Multilayer Perceptron (100 layers, ReLU activation function, LR = 0.001)
 5. k-Nearest Neighbors (k = 1, 2, ..., 10)
 
 Polynomial SVM:
